@@ -18,6 +18,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Verificando o chute](#verificando-o-chute)
 - [Contando tentativas](#contando-tentativas)
 - [Botão reiniciar](#botao-reiniciar)
+- [Reiniciando o Jogo](#reiniciando-o-jogo)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -136,6 +137,21 @@ Introduzo uma lógica no arquivo JavaScript para habilitar esse botão quando o 
 Testo a funcionalidade no jogo, realizando chutes até descobrir o número secreto. Confirmo que, ao acertar o número, o botão "Novo Jogo" é habilitado corretamente.
 
 Este é um passo importante para permitir que os jogadores reiniciem o jogo após acertar o número secreto.
+
+## <a name="reiniciando-o-jogo"> Reiniciando o Jogo </a>
+
+Estou adicionando uma funcionalidade ao botão "Novo Jogo". Ao ser clicado, desejo reiniciar o jogo, zerando as tentativas e gerando um novo número secreto. No arquivo HTML, vinculo essa funcionalidade ao botão usando o atributo onclick.
+
+No arquivo JavaScript, crio a função reiniciarJogo(). Dentro dela, atualizo o número secreto chamando a função gerarNumeroAleatorio(), limpo o campo de entrada e reseto o contador de tentativas para 1. Além disso, exibo a mensagem inicial chamando a função exibirMensagemInicial(). Testo essa funcionalidade no jogo, digitando números, acertando o número secreto e reiniciando o jogo com sucesso.
+
+Para evitar a repetição de código, introduzo uma função chamada exibirMensagemInicial() que encapsula as chamadas das funções exibirTextoNaTela(). Depois, modifico a função reiniciarJogo() para usar essa nova função, eliminando a duplicação de código.
+
+Para garantir que a mensagem inicial seja exibida na primeira execução, chamo a função exibirMensagemInicial() fora de qualquer outra função.
+
+Além disso, ao clicar em "Novo Jogo", desabilito o botão novamente, indicando que a interação só deve ocorrer após o acerto do número secreto.
+
+Essas melhorias contribuem para um código mais organizado e modular, facilitando futuras atualizações ou manutenções no jogo.
+
 
 
 
