@@ -22,6 +22,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Documentação sobre listas](#documentacao-sobre-listas)
 - [Implementando a lista](#implementando-a-lista)
 - [Limitando os números sorteados](#limitando-os-numeros-sorteados)
+- [Speech](#speech)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -186,9 +187,12 @@ Para resolver, decido adicionar uma verificação que limpa a lista quando ating
 
 Porém, percebo que esse método limita meu jogo a apenas 3 números sorteados. Para tornar isso dinâmico, crio uma variável chamada numeroLimite no início do código, definindo seu valor como 10. Em seguida, substituo os valores específicos por numeroLimite na função gerarNumeroAleatorio(). Agora, meu jogo sorteia números de 1 a 10, evitando repetições até que todos os números sejam sorteados.
 
+## <a name="speech"> Speech </a>
 
+Adicionei uma funcionalidade de leitura de texto ao meu jogo utilizando a biblioteca ResponsiveVoice em JavaScript. Para isso, importei o código da biblioteca com o script src em uma tag script no HTML. Desta forma, o projeto passou a ter a capacidade de falar.
 
+Fiz uma função, exibirTextoNaTela, que exibe o texto na tela e também utiliza o método responsiveVoice.speak() para a leitura do texto. Inseri essa funcionalidade principalmente quando exibo mensagens iniciais no jogo, como "Jogo do número secreto" e "Escolha um número entre 1 e 10".
 
+A biblioteca requer alguns parâmetros, como o texto a ser falado e o idioma da voz. No meu caso, escolhi "Brazilian Portuguese Female" para falar em português brasileiro. Além disso, é possível ajustar a velocidade da fala, o que fiz utilizando a propriedade {rate: 1.2}.
 
-
-
+Após habilitar o som, testei a funcionalidade, e agora o programa é capaz de narrar as mensagens exibidas na tela, proporcionando uma experiência mais interativa no jogo.
