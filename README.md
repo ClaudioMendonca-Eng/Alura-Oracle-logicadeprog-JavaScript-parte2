@@ -13,6 +13,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Manipulando textos](#manipulando-textos)
 - [Criando uma função](#criando-uma-funcao)
 - [Funções com parâmetros](#funcoes-com-parametros)
+- [Funções com retorno](#funcoes-com-retorno)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -68,5 +69,17 @@ Então, introduzo a função exibirTextoNaTela(tag, texto), que recebe uma tag e
 Demonstro como chamar essa função para manipular tanto o h1 quanto o parágrafo, fornecendo as tags 'h1' e 'p' como argumentos, respectivamente. Além disso, especifico os textos desejados, como 'Jogo do número secreto' e 'Escolha um número entre 1 e 10'.
 
 Exploro a flexibilidade do JavaScript, mostrando que a ordem de declaração e chamada de funções não é restrita. Comento sobre a importância de nomear funções de forma descritiva e explico como as funções com parâmetros podem ser poderosas para tornar o código mais dinâmico e reutilizável.
+
+## <a name="funcoes-com-retorno"> Funções com retorno </a>
+
+Estou introduzindo a criação de funções com retorno para gerar um número aleatório em nosso código. Começo definindo uma função chamada gerarNumeroAleatorio, utilizando Math.random() para gerar um número entre 1 e 10. Destaco a importância da palavra-chave return para indicar que a função deve nos devolver esse número.
+
+Demonstro como armazenar o resultado da função (o número gerado) em uma variável chamada numeroSecreto. Explico que essa função é diferente das anteriores, pois ela retorna uma informação que queremos armazenar.
+
+Mostro que existem diferentes modelos de funções: aquelas sem parâmetros e sem retorno (como verificarChute()), aquelas com parâmetros e sem retorno (como exibirTextoNaTela(tag, texto)), e finalmente, aquelas sem parâmetros e com retorno (como gerarNumeroAleatorio()).
+
+Testo a função, imprimindo o número secreto no console quando o botão "Chutar" é clicado. Observo que o número é gerado apenas na primeira vez que a função é chamada, e subsequentes chamadas apenas imprimem o mesmo número. Destaco a necessidade de entender quando e como invocar funções para obter resultados desejados.
+
+Concluo destacando que agora estamos atribuindo funções a variáveis, uma nova abordagem em relação às variáveis que antes armazenavam apenas strings ou números.
 
 
