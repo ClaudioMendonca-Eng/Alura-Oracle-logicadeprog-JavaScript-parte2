@@ -16,6 +16,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Funções com retorno](#funcoes-com-retorno)
 - [Tipo booleano](#tipo-booleano)
 - [Verificando o chute](#verificando-o-chute)
+- [Contando tentativas](#contando-tentativas)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -105,6 +106,20 @@ Explico que ao acertar, exibo mensagens no console e na tela usando a função e
 Introduzo uma lógica para mensagens de erro, onde informo se o número é maior ou menor que o número secreto. Uso o número gerado aleatoriamente como número secreto e testo o jogo.
 
 Destaco que, mesmo sem alertas e prompts, conseguimos entender a dinâmica do jogo, criar funções e usar retornos. Destaco que há desafios a serem enfrentados nas etapas subsequentes.
+
+## <a name="contando-tentativas"> Contando tentativas </a>
+
+Estou adicionando a funcionalidade de exibir o número de tentativas no jogo que desenvolvemos. Introduzo uma variável chamada tentativas na linha 2 e inicializo com o valor 1, considerando que a primeira tentativa já ocorre no início do jogo.
+
+Atualizo o texto da tag p para incluir a informação sobre o número de tentativas. Utilizo uma template string e a variável tentativas para exibir a mensagem adequada, levando em consideração a conjugação correta da palavra "tentativas" no plural ou singular.
+
+Introduzo uma lógica para determinar se devo usar "tentativas" ou "tentativa" com base no valor de tentativas. Crio a variável palavraTentativa na linha 17 e a utilizo na mensagem exibida.
+
+Ajusto a contagem de tentativas no código, incrementando a variável tentativas sempre que o chute é errado.
+
+Testo o jogo, verificando se as mensagens são exibidas corretamente para diferentes situações, incluindo acertos e erros. Destaco que a contagem considera apenas tentativas erradas, não contabilizando acertos subsequentes.
+
+Ao final, restauro a geração aleatória do número secreto para manter a dinâmica do jogo.
 
 
 
