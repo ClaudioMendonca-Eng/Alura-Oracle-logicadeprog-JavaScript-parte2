@@ -11,6 +11,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Instrutores](#instrutor)
 - [Apresentação](#apresentacao)
 - [Manipulando textos](#manipulando-textos)
+- [Criando uma função](#criando-uma-funcao)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -42,3 +43,16 @@ A manipulação visual com JavaScript torna o projeto mais dinâmico. Exploramos
 Ao criar a variável "titulo", aplicamos titulo.innerHTML para modificar o conteúdo da tag h1, exibindo "Jogo do número secreto". Similarmente, selecionamos e alteramos o conteúdo do parágrafo (tag p) usando paragrafo.innerHTML.
 
 Essa dinâmica proporciona uma experiência mais realista, evitando prompts invasivos. As alterações feitas refletem um título "Jogo do número secreto" e um parágrafo com "Escolha um número entre 1 e 10" acima da caixa de texto.
+
+## <a name="criando-uma-funcao"> Criando uma função </a>
+
+Estou enfrentando o desafio de reconhecer e implementar a funcionalidade dos botões "Chutar" e "Novo jogo" no projeto. O botão "Novo jogo" está atualmente desabilitado, focando no jogo atual. Nosso objetivo é criar uma ação ao clicar em "Chutar".
+
+Para isso, inspecionamos o botão "Chutar" no HTML, adicionando um elemento onclick com a função "verificarChute()" para indicar que algo deve acontecer no JavaScript quando o botão for clicado.
+
+A função "verificarChute()" é então implementada no arquivo app.js. No HTML, usamos onclick para referenciar a função JavaScript com o mesmo nome. A função JavaScript é introduzida com a palavra-chave "function".
+
+Dentro da função "verificarChute()", definimos o escopo com chaves, onde realizaremos as verificações. Lembre-se da importância de dar nomes descritivos a funções.
+
+A função atual exibe a mensagem "O botão foi clicado!" no console, marcando o funcionamento correto do botão "Chutar". Essa ação é um passo inicial para a implementação mais detalhada do jogo.
+
