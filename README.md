@@ -21,6 +21,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Reiniciando o Jogo](#reiniciando-o-jogo)
 - [Documentação sobre listas](#documentacao-sobre-listas)
 - [Implementando a lista](#implementando-a-lista)
+- [Limitando os números sorteados](#limitando-os-numeros-sorteados)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -175,6 +176,16 @@ No caso do número não estar na lista, utilizo o método push() para adicioná-
 Antes de testar, limito a geração de números de 1 a 3, ajustando a variável numeroEscolhido. Após a execução do jogo, percebo que o Console só mostra a lista de números sorteados quando acerto o número secreto ou começo um novo jogo.
 
 Ao identificar o número correto como 4, noto que ele só pode ser de 1 a 3. O código realiza novos sorteios até acertar todos os números. Observo que, ao esgotar os números disponíveis, o código gera um erro. Destaco a importância de ter cuidado ao usar recursão em projetos maiores para evitar chamadas excessivas.
+
+## <a name="limitando-os-numeros-sorteados"> Limitando os números sorteados </a>
+
+
+Estou enfrentando um problema no meu código, onde recebo um erro indicando que atingi o número máximo de chamadas para a função Math.random(). Isso ocorreu porque todos os números disponíveis já foram sorteados e estão presentes na lista.
+
+Para resolver, decido adicionar uma verificação que limpa a lista quando atinge o número máximo de elementos, que agora é 3. Na função gerarNumeroAleatorio(), abaixo da variável numeroEscolhido, crio uma variável quantidadeDeElementosNaLista para armazenar o tamanho da lista. Em seguida, adiciono uma condicional: se a quantidade de elementos na lista for 3, a lista é limpa.
+
+Porém, percebo que esse método limita meu jogo a apenas 3 números sorteados. Para tornar isso dinâmico, crio uma variável chamada numeroLimite no início do código, definindo seu valor como 10. Em seguida, substituo os valores específicos por numeroLimite na função gerarNumeroAleatorio(). Agora, meu jogo sorteia números de 1 a 10, evitando repetições até que todos os números sejam sorteados.
+
 
 
 
