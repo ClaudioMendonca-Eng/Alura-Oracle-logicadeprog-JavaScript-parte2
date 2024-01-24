@@ -15,6 +15,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Funções com parâmetros](#funcoes-com-parametros)
 - [Funções com retorno](#funcoes-com-retorno)
 - [Tipo booleano](#tipo-booleano)
+- [Verificando o chute](#verificando-o-chute)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -94,6 +95,17 @@ Testo a comparação no console, e como resultado obtenho false, que é um valor
 Demonstro que o tipo booleano (verdadeiro ou falso) é comum na programação, explicando como o JavaScript interpreta esses valores. Faço uma manipulação temporária para atribuir um número específico (5) à variável numeroSecreto e, ao inserir 5 no campo de input, obtenho true no console, indicando uma correspondência verdadeira.
 
 Concluo ressaltando a aprendizagem contínua sobre tipos de dados, como string, número e booleano. A seguir, sugiro a possibilidade de usar uma alternativa ao console para exibir uma resposta mais compreensível na tela.
+
+## <a name="verificando-o-chute"> Verificando o chute </a>
+
+Agora, estou implementando a lógica de jogo para fornecer feedback ao usuário após inserir um número no campo de input e clicar no botão "Chutar". Uso estruturas condicionais if() e else() para verificar se o chute é igual ao número secreto ou não.
+
+Explico que ao acertar, exibo mensagens no console e na tela usando a função exibirTextoNaTela(). Testo essa funcionalidade e ajusto as mensagens para indicar que a pessoa acertou e descobriu o número secreto.
+
+Introduzo uma lógica para mensagens de erro, onde informo se o número é maior ou menor que o número secreto. Uso o número gerado aleatoriamente como número secreto e testo o jogo.
+
+Destaco que, mesmo sem alertas e prompts, conseguimos entender a dinâmica do jogo, criar funções e usar retornos. Destaco que há desafios a serem enfrentados nas etapas subsequentes.
+
 
 
 
