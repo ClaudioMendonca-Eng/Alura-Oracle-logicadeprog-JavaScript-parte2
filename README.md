@@ -14,6 +14,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Criando uma função](#criando-uma-funcao)
 - [Funções com parâmetros](#funcoes-com-parametros)
 - [Funções com retorno](#funcoes-com-retorno)
+- [Tipo booleano](#tipo-booleano)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -81,5 +82,18 @@ Mostro que existem diferentes modelos de funções: aquelas sem parâmetros e se
 Testo a função, imprimindo o número secreto no console quando o botão "Chutar" é clicado. Observo que o número é gerado apenas na primeira vez que a função é chamada, e subsequentes chamadas apenas imprimem o mesmo número. Destaco a necessidade de entender quando e como invocar funções para obter resultados desejados.
 
 Concluo destacando que agora estamos atribuindo funções a variáveis, uma nova abordagem em relação às variáveis que antes armazenavam apenas strings ou números.
+
+## <a name="tipo-booleano"> Tipo booleano </a>
+
+Agora estou lidando com a interação do usuário no campo de entrada do HTML, onde ele insere um número entre 1 e 10. Ao clicar no botão "Chutar", quero capturar o valor inserido nesse campo e compará-lo com o número aleatório gerado. Começo selecionando o campo input usando document.querySelector('input') e obtendo o valor inserido usando .value. Faço uma comparação, verificando se o valor inserido (chute) é igual ao número secreto (numeroSecreto), e imprimo o resultado no console.
+
+Explico a razão de usar .value em vez de simplesmente armazenar o campo como fizemos com o título e o parágrafo. Destaco a diferença entre = (atribuição) e == (comparação) em JavaScript.
+
+Testo a comparação no console, e como resultado obtenho false, que é um valor booleano indicando que o chute não é igual ao número secreto.
+
+Demonstro que o tipo booleano (verdadeiro ou falso) é comum na programação, explicando como o JavaScript interpreta esses valores. Faço uma manipulação temporária para atribuir um número específico (5) à variável numeroSecreto e, ao inserir 5 no campo de input, obtenho true no console, indicando uma correspondência verdadeira.
+
+Concluo ressaltando a aprendizagem contínua sobre tipos de dados, como string, número e booleano. A seguir, sugiro a possibilidade de usar uma alternativa ao console para exibir uma resposta mais compreensível na tela.
+
 
 
