@@ -4,6 +4,8 @@
 Atualmente, estou participando ativamente do programa ONE Oracle Next Education T6, uma colaboração entre a Oracle e a Alura. Estou genuinamente desfrutando da experiência educacional oferecida por este curso, que está focado no aprendizado de Lógica de Programação e na exploração dos fundamentos da programação com JavaScript.
 #oraclenexteducation #alura #HelloONET6 #aluracursos #aluraonline #aluraone #aluraoneoracle #aluraoneoracleeducation #aluraoneoracleeducationt6 #aluraoneoracleeducationt6claudiomendon
 
+Link: https://jogoaluraoneoracleeducation.vercel.app/
+
 ![](img/imagemgamer.png)
 
 ## Índice
@@ -23,6 +25,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Implementando a lista](#implementando-a-lista)
 - [Limitando os números sorteados](#limitando-os-numeros-sorteados)
 - [Speech](#speech)
+- [GitHub](#github)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -196,3 +199,31 @@ Fiz uma função, exibirTextoNaTela, que exibe o texto na tela e também utiliza
 A biblioteca requer alguns parâmetros, como o texto a ser falado e o idioma da voz. No meu caso, escolhi "Brazilian Portuguese Female" para falar em português brasileiro. Além disso, é possível ajustar a velocidade da fala, o que fiz utilizando a propriedade {rate: 1.2}.
 
 Após habilitar o som, testei a funcionalidade, e agora o programa é capaz de narrar as mensagens exibidas na tela, proporcionando uma experiência mais interativa no jogo.
+
+## <a name="github"> GitHub </a>
+
+Decidi compartilhar meu jogo desenvolvido recentemente, o "Jogo do Número Secreto", para que outras pessoas possam acessá-lo e jogar diretamente pelo celular. Para fazer isso, escolhi o GitHub como plataforma para armazenar e compartilhar meu código.
+
+Primeiro, criei um repositório no GitHub chamado "jogo-do-numero-secreto" e enviei todos os arquivos do meu projeto, incluindo o HTML, JavaScript e CSS, para esse repositório.
+
+Em seguida, utilizei a plataforma Vercel para realizar o deploy do meu projeto, tornando-o acessível a partir de um endereço online. Após configurar o deploy, a aplicação ficou disponível para acesso.
+
+Acessei a prévia do site gerado pela Vercel, e para minha satisfação, o jogo estava funcionando perfeitamente. Inclusive, adicionei uma funcionalidade de áudio que permitia ao programa narrar as mensagens do jogo.
+
+Testei o jogo no celular, inserindo números e interagindo com a interface, e tudo estava operando conforme o esperado. Encorajei as pessoas a experimentarem o jogo, compartilhando o link e destacando que ele estaria acessível para todos.
+
+Concluí que, ao compartilhar meu código e realizar o deploy, alcancei meu objetivo de permitir que outras pessoas jogassem o "Jogo do Número Secreto" de qualquer lugar do mundo.
+
+## <a name="conclusao"> Conclusão </a>
+
+Chegamos ao fim de mais um treinamento na Alura, onde absorvemos conceitos fundamentais para nossa jornada como desenvolvedores. Desenvolver software, seja criando interfaces ou trabalhando no back-end, envolve dedicação, estudo e esforço.
+
+Neste curso, aprendi a explorar funções e listas em JavaScript, consolidando os conhecimentos de lógica de programação e aprimorando o projeto do número secreto. Além disso, aprendi a utilizar a biblioteca ResponsiveVoice para adicionar uma funcionalidade de leitura de texto ao jogo.
+
+Agora, o jogo está mais dinâmico e interativo, permitindo que os jogadores interajam com a interface e recebam feedbacks visuais e sonoros. Além disso, o jogo está disponível online, permitindo que qualquer pessoa acesse e jogue diretamente pelo celular.
+
+## <a name="licenca"> Licença </a>
+
+<a href="https://www.buymeacoffee.com/claudiomendonca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+Copyright © 2022 <a href="https://www.claudiomendonca.eng.br" target="_blank">ClaudioMendonca.eng.br</a> . The [MIT License]() (MIT)
