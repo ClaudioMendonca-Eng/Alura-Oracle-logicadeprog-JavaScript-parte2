@@ -19,6 +19,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Contando tentativas](#contando-tentativas)
 - [Botão reiniciar](#botao-reiniciar)
 - [Reiniciando o Jogo](#reiniciando-o-jogo)
+- [Documentação sobre listas](#documentacao-sobre-listas)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -151,6 +152,16 @@ Para garantir que a mensagem inicial seja exibida na primeira execução, chamo 
 Além disso, ao clicar em "Novo Jogo", desabilito o botão novamente, indicando que a interação só deve ocorrer após o acerto do número secreto.
 
 Essas melhorias contribuem para um código mais organizado e modular, facilitando futuras atualizações ou manutenções no jogo.
+
+## <a name="documentacao-sobre-listas"> Documentação sobre listas </a>
+
+Estou introduzindo uma lógica para evitar que um número já sorteado seja escolhido novamente no jogo. Optei por utilizar arrays em JavaScript para armazenar os números sorteados. Inicialmente, aprendo sobre arrays por meio da documentação do JavaScript, observando como criar, acessar elementos e obter o tamanho de uma lista.
+
+Demonstro a criação de arrays usando o exemplo de uma lista de números. Utilizo o console do navegador para praticar a manipulação de listas. Em seguida, explico o conceito de índices em arrays, onde o primeiro elemento tem índice 0, o segundo índice 1, e assim por diante.
+
+Apresento como acessar elementos específicos da lista usando seus índices e mostro como obter o último elemento da lista, independentemente do tamanho, usando a expressão nomeDaLista.length - 1. Destaco a importância de subtrair 1, pois os índices começam do zero.
+
+Destaco a necessidade de evitar índices que não existem para evitar retornos indefinidos. Finalmente, destaco que, embora existam métodos adicionais para manipular listas, o foco do curso não é explorar esses detalhes, mas sim implementar uma lógica específica para o projeto em questão: garantir que números não sejam sorteados repetidamente.
 
 
 
