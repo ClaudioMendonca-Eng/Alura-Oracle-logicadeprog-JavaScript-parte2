@@ -20,6 +20,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Botão reiniciar](#botao-reiniciar)
 - [Reiniciando o Jogo](#reiniciando-o-jogo)
 - [Documentação sobre listas](#documentacao-sobre-listas)
+- [Implementando a lista](#implementando-a-lista)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -162,6 +163,18 @@ Demonstro a criação de arrays usando o exemplo de uma lista de números. Utili
 Apresento como acessar elementos específicos da lista usando seus índices e mostro como obter o último elemento da lista, independentemente do tamanho, usando a expressão nomeDaLista.length - 1. Destaco a importância de subtrair 1, pois os índices começam do zero.
 
 Destaco a necessidade de evitar índices que não existem para evitar retornos indefinidos. Finalmente, destaco que, embora existam métodos adicionais para manipular listas, o foco do curso não é explorar esses detalhes, mas sim implementar uma lógica específica para o projeto em questão: garantir que números não sejam sorteados repetidamente.
+
+## <a name="implementando-a-lista"> Implementando a lista </a>
+
+Estou explorando a implementação de uma lógica para garantir que os números sorteados no jogo não se repitam. Utilizando arrays em JavaScript, crio uma lista chamada listaDeNumerosSorteados na linha 1 do código. A ideia é armazenar os números sorteados nesta lista para evitar repetições.
+
+Na função gerarNumeroAleatorio(), que está na linha 37, introduzo a variável numeroEscolhido para armazenar o número aleatório gerado. Utilizo a função includes() para verificar se o número já está na lista. Se sim, faço uma chamada recursiva da função para gerar um novo número.
+
+No caso do número não estar na lista, utilizo o método push() para adicioná-lo à listaDeNumerosSorteados. Adiciono um console.log(listaDeNumerosSorteados) para verificar o comportamento no Console.
+
+Antes de testar, limito a geração de números de 1 a 3, ajustando a variável numeroEscolhido. Após a execução do jogo, percebo que o Console só mostra a lista de números sorteados quando acerto o número secreto ou começo um novo jogo.
+
+Ao identificar o número correto como 4, noto que ele só pode ser de 1 a 3. O código realiza novos sorteios até acertar todos os números. Observo que, ao esgotar os números disponíveis, o código gera um erro. Destaco a importância de ter cuidado ao usar recursão em projetos maiores para evitar chamadas excessivas.
 
 
 
