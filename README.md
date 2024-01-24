@@ -17,6 +17,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Tipo booleano](#tipo-booleano)
 - [Verificando o chute](#verificando-o-chute)
 - [Contando tentativas](#contando-tentativas)
+- [Botão reiniciar](#botao-reiniciar)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -120,6 +121,22 @@ Ajusto a contagem de tentativas no código, incrementando a variável tentativas
 Testo o jogo, verificando se as mensagens são exibidas corretamente para diferentes situações, incluindo acertos e erros. Destaco que a contagem considera apenas tentativas erradas, não contabilizando acertos subsequentes.
 
 Ao final, restauro a geração aleatória do número secreto para manter a dinâmica do jogo.
+
+## <a name="botao-reiniciar"> Botão reiniciar </a>
+
+
+Estou adicionando uma funcionalidade ao jogo para limpar o campo de entrada após cada tentativa. Introduzo uma função chamada limparCampo() que, quando chamada, seleciona o campo de entrada e atribui uma string vazia ao seu valor, tornando-o assim vazio.
+
+Testo a função, digitando números no campo de entrada, realizando tentativas e verificando se o campo é limpo corretamente após cada chute.
+
+Em seguida, identifico no HTML um botão chamado "Novo Jogo" que está desativado inicialmente. Explico como o atributo disabled é responsável por desativar o botão.
+
+Introduzo uma lógica no arquivo JavaScript para habilitar esse botão quando o número secreto for descoberto. Uso a função document.getElementById() para obter o botão específico pelo seu ID "reiniciar". Utilizo a função removeAttribute() para remover o atributo disabled e, assim, habilitar o botão.
+
+Testo a funcionalidade no jogo, realizando chutes até descobrir o número secreto. Confirmo que, ao acertar o número, o botão "Novo Jogo" é habilitado corretamente.
+
+Este é um passo importante para permitir que os jogadores reiniciem o jogo após acertar o número secreto.
+
 
 
 
