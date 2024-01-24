@@ -12,6 +12,7 @@ Atualmente, estou participando ativamente do programa ONE Oracle Next Education 
 - [Apresentação](#apresentacao)
 - [Manipulando textos](#manipulando-textos)
 - [Criando uma função](#criando-uma-funcao)
+- [Funções com parâmetros](#funcoes-com-parametros)
 - [Conclusão](#conclusao)
 - [Licença](#licença)
 
@@ -55,4 +56,17 @@ A função "verificarChute()" é então implementada no arquivo app.js. No HTML,
 Dentro da função "verificarChute()", definimos o escopo com chaves, onde realizaremos as verificações. Lembre-se da importância de dar nomes descritivos a funções.
 
 A função atual exibe a mensagem "O botão foi clicado!" no console, marcando o funcionamento correto do botão "Chutar". Essa ação é um passo inicial para a implementação mais detalhada do jogo.
+
+## <a name="funcoes-com-parametros"> Funções com parâmetros </a>
+
+Estou explorando a criação e uso de funções, focando em funções com parâmetros. Ao revisar o código, percebo que mesmo para ações diferentes, como manipular elementos distintos (h1 e p), as estruturas são semelhantes. Criamos variáveis para armazenar seleções de elementos e as utilizamos para alterar seus textos.
+
+Embora os campos (título, parágrafo) e tags (h1, p) variem, a lógica subjacente é a mesma. Destaco a possibilidade de aprimorar a eficiência e clareza do código usando funções.
+
+Então, introduzo a função exibirTextoNaTela(tag, texto), que recebe uma tag e um texto como parâmetros. Dentro da função, selecionamos o elemento com a tag fornecida e atualizamos seu conteúdo com o texto.
+
+Demonstro como chamar essa função para manipular tanto o h1 quanto o parágrafo, fornecendo as tags 'h1' e 'p' como argumentos, respectivamente. Além disso, especifico os textos desejados, como 'Jogo do número secreto' e 'Escolha um número entre 1 e 10'.
+
+Exploro a flexibilidade do JavaScript, mostrando que a ordem de declaração e chamada de funções não é restrita. Comento sobre a importância de nomear funções de forma descritiva e explico como as funções com parâmetros podem ser poderosas para tornar o código mais dinâmico e reutilizável.
+
 
