@@ -241,4 +241,4 @@ Parabéns! Você acabou de avançar mais um passo e mergulhou profundamente em c
 
 <a href="https://www.buymeacoffee.com/claudiomendonca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-Copyright © 2022 <a href="https://www.claudiomendonca.eng.br" target="_blank">ClaudioMendonca.eng.br</a> . The [MIT License]() (MIT)
+Copyright © 2022 <a href="https://www.claudiomendonca.eng.br" target="_blank">ClaudioMendonca.eng.br</a> . The [MIT License](https://github.com/ClaudioMendonca-Eng/Alura-Oracle-logicadeprog-JavaScript-parte2?tab=MIT-1-ov-file) (MIT)
