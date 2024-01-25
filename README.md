@@ -223,6 +223,10 @@ Neste curso, aprendi a explorar funções e listas em JavaScript, consolidando o
 
 Agora, o jogo está mais dinâmico e interativo, permitindo que os jogadores interajam com a interface e recebam feedbacks visuais e sonoros. Além disso, o jogo está disponível online, permitindo que qualquer pessoa acesse e jogue diretamente pelo celular.
 
+Se os primeiros cursos pareceram um pouco desafiadores e você se perguntou se isso é para você, minha sugestão pessoal é não desistir. Os primeiros passos podem ser complexos, e entender como as coisas acontecem na tela pode parecer confuso, mas é crucial manter a motivação.
+
+A Mônica e o Guilherme também passaram por esses momentos, seja na faculdade ou em trabalhos anteriores. Ter pessoas ao meu lado é essencial nesse processo. Por isso, recomendo que você se junte a uma comunidade, como a Alura, para compartilhar suas dúvidas e conquistas.
+
 ## <a name="certificado"> Certificado </a>
 
 ## Lógica de programação: explore funções e listas
