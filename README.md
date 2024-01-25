@@ -27,6 +27,7 @@ Link: https://jogoaluraoneoracleeducation.vercel.app/
 - [Speech](#speech)
 - [GitHub](#github)
 - [Conclusão](#conclusao)
+- [Certificado](#certificado)
 - [Licença](#licença)
 
 ## <a name="instrutor"> Instrutores </a>
@@ -221,6 +222,16 @@ Chegamos ao fim de mais um treinamento na Alura, onde absorvemos conceitos funda
 Neste curso, aprendi a explorar funções e listas em JavaScript, consolidando os conhecimentos de lógica de programação e aprimorando o projeto do número secreto. Além disso, aprendi a utilizar a biblioteca ResponsiveVoice para adicionar uma funcionalidade de leitura de texto ao jogo.
 
 Agora, o jogo está mais dinâmico e interativo, permitindo que os jogadores interajam com a interface e recebam feedbacks visuais e sonoros. Além disso, o jogo está disponível online, permitindo que qualquer pessoa acesse e jogue diretamente pelo celular.
+
+## <a name="certificado"> Certificado </a>
+
+## Lógica de programação: explore funções e listas
+
+Parabéns! Você acabou de avançar mais um passo e mergulhou profundamente em conhecimento com a gente.
+
+![](img/certificado01.png)
+
+![](img/certificado02.png)
 
 ## <a name="licenca"> Licença </a>
 
